@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Calculator Container */
+.container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Input Labels */
+p {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/* Range Input Styling */
+input[type="range"] {
+    width: 100%;
+    /* -webkit-appearance: none; */
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="range"]:hover {
+    background: #888;
+}
+
+/* Dropdown Styling */
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Result Display */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #2c3e50;
+}

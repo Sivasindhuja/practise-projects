@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: red;
+}
+.hexadec{
+    color: #542f26;
+}
+.rgb{
+    color: rgb(41, 84, 38);
+}
+.rgba{
+    color: rgba(41, 84, 38,.0.5);
+}
+/* .hsl{
+     color:;
+}
+.hsla{
+    color:;
+} */

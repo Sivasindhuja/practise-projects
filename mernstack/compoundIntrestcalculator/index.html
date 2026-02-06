@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compound Intrest calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Compound Intrest Calculator</h1>
+    <div class="container">
+        <p>Principal Amount</p>
+        <input id="pa" type="range" value="100000" min="1000" max="10000000">
+        <p>Rate of Intrest</p>
+        <input id="ri" type="range" value="6" min="1" max="50" >
+        <p>Time period</p>
+        <input id="tp" type="range" value="6" min="1" max="30">
+        <p>Compound Frequency</p>
+        <select name="cars" id="freq">
+            <option value="Yearly">Yearly</option>
+            <option value="Half Yearly">Half Yearly</option>
+            <option value="Quaterly">Quaterly</option>
+        </select>
+        <p id="result">Result:</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

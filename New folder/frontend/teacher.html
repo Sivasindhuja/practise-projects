@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher | Create Exam</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Create Coding Exam</h1>
+  </header>
+
+  <main>
+    <form id="examForm">
+      <label>Subject:</label>
+      <input type="text" id="subject" required /><br /><br />
+      
+      <label>Number of Questions:</label>
+      <input type="number" id="questionCount" required min="1" /><br /><br />
+      
+      <button type="button" onclick="generateQuestions()">Create Exam</button>
+    </form>
+
+    <div id="questionsContainer"></div>
+
+    <button id="submitExamBtn" onclick="submitExam()" style="display:none; margin-top:20px;">Submit Exam</button>
+  </main>
+
+  <script src="teacher.js"></script>
+</body>
+</html>

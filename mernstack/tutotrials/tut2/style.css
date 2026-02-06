@@ -1,0 +1,12 @@
+h1{
+    color: #0d9167;
+}
+p{
+    color:red;
+}
+.my-container{
+    text-align: center;
+    background-color: black;
+    height: 60vh;
+
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}
+img{
+    height: 50px ;
+    width: 114px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+.heropage img{
+    width: 100vw;
+    height: 100%;
+}
